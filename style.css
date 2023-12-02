@@ -1,0 +1,386 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+    box-sizing: border-box;
+}
+
+header {
+    position: sticky;
+    top: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+}
+
+.nav-logo {
+    height: 50px;
+    width: 100px;
+    cursor: pointer;
+}
+
+.logo {
+    height: 50px;
+    width: 100%;
+    background-image: url(./Assets/amazon_logo.png);
+    background-size: cover;
+}
+
+.border {
+    border: 2px solid transparent;
+    /* padding: 5px 5px; */
+}
+
+.border:hover {
+    border: 2px solid white;
+    border-radius: 3px;
+}
+
+.border2 {
+    border: 2px solid transparent;
+    padding: 8px 10px;
+}
+
+.border2:hover {
+    border: 2px solid white;
+    border-radius: 3px;
+}
+
+.nav-address {
+    line-height: 12px;
+    cursor: pointer;
+}
+
+.add-first {
+    color: #cccccc;
+    font-size: 0.8rem;
+    margin-left: 16px;
+    cursor: pointer;
+}
+
+
+.add-second {
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.add-icon {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.nav-search {
+    display: flex;
+    border-radius: 3px;
+    align-items: center;
+    justify-content: space-evenly;
+    border: none;
+    width: 750px;
+    cursor: pointer;
+    background-color: #f3a847;
+
+}
+
+.nav-search:hover {
+    border: 3px solid orange;
+
+}
+
+.search-select {
+    cursor: pointer;
+    height: 40px;
+    width: 45PX;
+    border: none;
+    background-color: #d4d4d4;
+    text-align: center;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    color: rgb(15, 17, 17);
+}
+
+.seach-input {
+    height: 40px;
+    width: 100%;
+    font-size: 1rem;
+    font-weight: 500;
+    padding-left: 6px;
+    border: none;
+}
+
+.search-icon {
+    width: 45px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.4rem;
+    color: #0f1111;
+}
+
+.language {
+    display: flex;
+    align-items: center;
+}
+
+.language img {
+    margin: 0px 2px;
+    width: 25px;
+}
+
+.bhasha {
+    background-color: transparent;
+    color: white;
+    border: none;
+}
+
+.nav-first {
+    font-size: 0.75rem;
+    font-weight: 400;
+}
+
+.nav-second {
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+.cart {
+    display: flex;
+    align-items: center;
+}
+
+.cart p {
+    font-size: 14px;
+    font-weight: bold;
+
+}
+
+.cart i {
+    font-size: 30px;
+    margin-right: 4px;
+
+}
+
+.panel {
+    display: flex;
+    align-items: center;
+    background-color: rgb(35, 47, 62);
+    color: white;
+    padding: 0px 15px;
+    height: 40px;
+    width: 100%;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.panel-all {
+    padding-right: 15px;
+}
+
+.panel-opt span {
+    padding: 0px 10px;
+    cursor: pointer;
+}
+
+.right {
+    right: 0;
+    position: absolute
+}
+
+.hero-sec {
+    background-image: url(./Assets/hero_image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+}
+
+.shop {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+    flex-wrap: wrap;
+}
+
+.box {
+    margin: 20px 20px;
+    background-color: white;
+    height: 450px;
+    width: 24%;
+    padding: 20px 0px 15px;
+}
+
+.box1 .box-img {
+    background-image: url(./Assets/box1_image.jpg);
+    height: 370px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box2 .box-img {
+    background-image: url(./Assets/box2_image.jpg);
+    height: 370px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box3 .box-img {
+    background-image: url(./Assets/box3_image.jpg);
+    height: 370px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box4 .box-img {
+    background-image: url(./Assets/box4_image.jpg);
+    height: 370px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box5 .box-img {
+    background-image: url(./Assets/box5_image.jpg);
+    height: 370px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box6 .box-img {
+    background-image: url(./Assets/box6_image.jpg);
+    height: 370px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box7 .box-img {
+    background-image: url(./Assets/box7_image.jpg);
+    height: 370px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box8 .box-img {
+    background-image: url(./Assets/box8_image.jpg);
+    height: 370px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.content {
+    margin: 0px 16px;
+}
+
+.content p {
+    color: rgb(53 0 255);
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #37475A;
+    color: white;
+    height: 54px;
+    cursor: pointer;
+}
+
+.foot-panel1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 34px;
+    line-height: 2;
+    color: white;
+    background-color: #232F3E;
+}
+
+.hname {
+    margin: 0px 23px;
+    padding: 0px 34px;
+
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.para1 {
+    margin: 0px 23px;
+    padding: 0px 34px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.para1:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.line {
+    height: 0.4px;
+    color: darkblue;
+}
+
+.foot-panel2 {
+    background-color: #232F3E;
+    display: flex;
+    padding: 20px 0px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+}
+
+.sl select {
+    background-color: transparent;
+    border: none;
+    color: white;
+}
+
+.sl {
+    border: 1px solid rgb(88, 84, 77);
+    padding: 15px 15px;
+
+}
+
+img {
+    padding-top: 8px;
+    width: 133px;
+}
+
+.para2 {
+    display: block;
+}
+
+.foot-end {
+    font-size: 12px;
+    text-align: center;
+    background-color: #0f1111;
+    color: white;
+    height: 80px;
+}
+
+.page {
+    padding-top: 23px;
+}
+
+.page span {
+    margin: 10px;
+    cursor: pointer;
+}
+
+.page span:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.page2 {
+    padding-top: 4px;
+}
